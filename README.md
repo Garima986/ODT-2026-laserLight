@@ -125,15 +125,14 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Video]` | `[https://www.instagram.com/reel/DWbnYinCgSN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==]` | `[]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `[Video]` | `[https://www.instagram.com/reel/DWbnYinCgSN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==]` | `[Inspired the idea of translating digital drawings into physical light-based visuals ]` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[Write here]`
+`[What makes our project original is the way we approach control and interaction. Instead of manual control, the system uses a mobile app interface where users can draw freely and have their input translated automatically into motion.Using an ESP32 with a pan tilt servo mechanism, the system interprets drawing data and recreates it on the wall. This shifts the experience from simply controlling movement to creating drawings, making it more expressive and accessible.
+The addition of longe xposure capture adds another layer, where the final image is only revealed after the motion is complete]`
 
 ---
 
@@ -355,7 +354,7 @@ If your project includes mechanical motion, document the digital planning before
 What changed after the CAD, animation, or simulation stage?
 
 **Response:**  
-`[Write here]`
+`[NA]`
 
 ---
 
@@ -676,7 +675,7 @@ Expected outcomes:
 What is the single biggest uncertainty in your project at this stage?
 
 **Response:**  
-`[Write here]`
+`[The biggest uncertainty is the reliability of Bluetooth communication between the app (built using MIT App Inventor) and the ESP32]`
 
 ---
 
@@ -781,8 +780,7 @@ Describe the final version of your project.
 How did the project change from the initial idea?
 
 **Response:**  
-`[
-We initially planned real-time drawing transmission, but switched to sending the full drawing after completion for better stability. We also restricted servo angles to keep the laser on the wall and refined the motion for smoother, more accurate tracing.]`
+`[We initially planned real-time drawing transmission ( The x and y coordinates would be sent continuously), but switched to sending the full drawing after completion for better stability. We also restricted servo angles to keep the laser on the wall and refined the motion for smoother, more accurate tracing.]`
 
 ---
 
@@ -794,7 +792,7 @@ What slowed you down?
 How well did you manage time, tasks, and responsibilities?
 
 **Response:**  
-`[Write here]`
+`[We worked well in breaking down the project into parts (app, hardware, and mechanism)., especially with Bluetooth and movement. We were able to adapt quickly when something didn’t work and find practical solutions.]`
 
 ## 19.2 Technical Reflection
 What did you learn about:
@@ -805,7 +803,10 @@ What did you learn about:
 - integration?
 
 **Response:**  
-`[Write here]`
+`[Through this project, we understood how electronics can actually control physical movement and create something interactive. Working with the ESP32 made it clear how code directly translates into real-world motion. While coding in MicroPython, we learned how logic, data flow, and communication really affect how the system behaves. It was interesting to see how the same hardware can give completely different results just based on how it’s programmed.
+For the mechanism, we got a better understanding of how a pan-tilt setup works and how important precise control is for getting accurate drawings.
+Using 3D printing also showed us how important proper alignment and structure are small errors in the build can affect the entire output.
+Overall, the biggest learning was how everything connects. Electronics, coding, and the physical setup all depend on each other, and even a small issue in one part can affect the whole system.]`
 
 ## 19.3 Design Reflection
 What did you learn about:
@@ -817,37 +818,39 @@ What did you learn about:
 - iteration?
 
 **Response:**  
-`[Write here]`
+`[This project helped us understand that designing for play is less about adding features and more about shaping a clear and engaging experience. The core loop, drawing, sending, and watching became meaningful because it included a sense of anticipation and reveal. That moment where the final image appears created a subtle sense of delight, showing us how timing and outcome can strongly influence engagement. We also learned that clarity in interaction is critical, and that starting with a simple, direct system worked in our favor. Since the interaction was always straightforward (draw → send → observe), users were able to understand it immediately without confusion. This showed us that keeping the interaction minimal from the beginning can be more effective than adding extra features or controls.In terms of player understanding, we saw how important feedback and consistency are. If the system responds in a stable and expected way, users quickly build trust and start experimenting more freely. Finally, iteration played a major role. Many of our early ideas didn’t work as expected, especially with real-time data and connectivity. Each change forced us to rethink both the technical and interaction design. Over time, we moved toward a simpler and more reliable system, showing that refining and simplifying is often more valuable than adding complexity.
+]`
 
 ## 19.4 If You Had One More Week
 What would you improve next?
 
 **Response:**  
-`[Write here]`
+`[We would improve the smoothness and accuracy of the laser movement so that drawings look cleaner and more precise
+ On the app side (built using MIT App Inventor), we would enhance the interface by adding features like adjustable brush size, undo options.]`
 
 ---
 
 # 20. Final Submission Checklist
 
 Before submission, confirm that:
-- [ ] Team details are complete
-- [ ] Project description is complete
-- [ ] Inspiration sources are included
-- [ ] Player journey is written
-- [ ] Sketches are added
-- [ ] BOM is complete
-- [ ] Purchase list is complete
-- [ ] Budget summary is complete
-- [ ] Mechanical planning is documented if applicable
-- [ ] App planning is documented if applicable
-- [ ] Code flowchart is added
-- [ ] Task breakdown is complete
-- [ ] Weekly logs are updated
-- [ ] Risk register is complete
-- [ ] Testing log is updated
-- [ ] Playtesting notes are included
-- [ ] Build photos are included
-- [ ] Final reflection is written
+- [Yes ] Team details are complete
+- [Yes ] Project description is complete
+- [Yes ] Inspiration sources are included
+- [Yes ] Player journey is written
+- [yes ] Sketches are added
+- [Yes ] BOM is complete
+- [Yes] Purchase list is complete
+- [Yes ] Budget summary is complete
+- [Yes ] Mechanical planning is documented if applicable
+- [Yes ] App planning is documented if applicable
+- [ Yes] Code flowchart is added
+- [Yes ] Task breakdown is complete
+- [ Yes] Weekly logs are updated
+- [Yes ] Risk register is complete
+- [Yes ] Testing log is updated
+- [ Yes] Playtesting notes are included
+- [Yes ] Build photos are included
+- [Yes ] Final reflection is written
 
 ---
 
