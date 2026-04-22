@@ -52,20 +52,20 @@ By the final review, this README should clearly show:
 # 1. Team Identity
 
 ## 1.1 Studio / Group Name
-`[Enter your group name]`
+`[Laser Light]`
 
 ## 1.2 Team Members
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `[Student 1]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
-| `[Student 2]` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `[Garima]` | `[Coding, mechanics]` | `[App building and connection]` | `[Write here]` |
+| `[Janhavi]` | `[App building and connection , mechanics]` | `[Coding]` | `[Write here]` |
 
 ## 1.3 Project Title
-`[Enter the title of your project]`
+`[Laser light Painting machine.]`
 
 ## 1.4 One-Line Pitch
-`[Describe your project in one sentence]`
+`[This project demonstrates how a laser and servos can work together to turn simple code into precise visual art.]`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -75,7 +75,8 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[Write here]`
+`[This project is a laser light painting machine where a user draws a simple sketch on their phone, and that drawing is then recreated on a wall using a laser mounted on two servo motors. An ESP32 translates the drawing into motion, guiding the laser to trace it point by point. While the laser is moving, you only see a single dot traveling across the surface,but when captured using a long-exposure photograph, the full drawing appears as a continuous glowing image.
+]`
 
 ---
 
@@ -101,7 +102,11 @@ Answer the following:
 - Why would someone want to try it again?
 
 **Response:**  
-`[Write here]`
+`[-The user creates a digital sketch on their phone, which is then physically recreated by a laser mounted on servo motors via an ESP32 . As the laser traces the drawing on a wall in real time, the user captures it using a long-exposure photograph. The final output isn’t just the drawing,it’s a glowing, continuous light trail captured through the camera, revealing a version of the artwork that isn’t visible to the naked eye in one instant.
+ 
+ -A sense of anticipation and reveal. Unlike normal drawing, the result isn’t immediately visible,you only fully see it after taking the long-exposure shot. This creates a feeling  surprise. There’s also a sense of translation : something drawn digitally becomes a physical, and then becomes a photographic artifact. It should feel a bit like capturing something invisible or hidden
+ 
+ -People will want to tweak their drawing, try different shapes, or play with camera settings to get a cooler result. Even small changes can make the photo look completely different. Also, since you end up with a photo each time, it becomes something you’d want to improve, share, or experiment with again and again.]`
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -109,7 +114,7 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[Write here]`
+`[We are designing this project as if we are a small creative studio making an interactive experience for a mixed audience of classmates and exhibition visitors.]`
 
 ---
 
@@ -120,7 +125,7 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `[Video]` | `[https://www.instagram.com/reel/DWbnYinCgSN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==]` | `[]` |
 | `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
 | `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
 
@@ -144,37 +149,37 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`[Write here]`
+`[draw image on phone → send to ESP via Bluetooth → ESP converts to motion → laser traces drawing on wall → user captures long-exposure photo → view result → modify and resend → repeat]`
 
 ## 4.2 Intended Player / Audience
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Write here]` |
-| Age range | `[Write here]` |
-| Solo or multiplayer | `[Write here]` |
-| Expected duration of one round | `[Write here]` |
-| What should the player feel? | `[Write here]` |
-| Is explanation required before use? | `[Write here]` |
+| Who is this for? | `[Design students, curious creators, and exhibition visitors interested in interactive art and tech]` |
+| Age range | `[all ages]` |
+| Solo or multiplayer | `[Primarily solo, but others can observe or take turns]` |
+| Expected duration of one round | `[1-2 minutes]` |
+| What should the player feel? | `[Curious, excited, and satisfied—,specially during the final reveal of the long-exposure image]` |
+| Is explanation required before use? | `[Yes, a brief explanation is needed]` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[How does the player first encounter it?]`
-2. **Start:** `[How do they begin?]`
-3. **First Action:** `[What do they do first?]`
-4. **Main Interaction:** `[What keeps happening during use?]`
-5. **System Response:** `[How does the project respond?]`
-6. **Win / Lose / End Condition:** `[How does one round end?]`
-7. **Reset:** `[How does the next round begin?]`
+1. **Approach:** `[The player sees a laser setup aimed at a wall along with a phone interface. A camera is already positioned, hinting that something is being captured.]`
+2. **Start:** `[They pick up the phone and connect to the system via Bluetooth]`
+3. **First Action:** `[The player draws a simple sketch or pattern on the phone screen]`
+4. **Main Interaction:** `[They send the drawing, and the laser begins tracing it on the wall. While this happens, the camera automatically captures the motion as a long-exposure image.]`
+5. **System Response:** `[The system translates the drawing into coordinated servo movements, guiding the laser to recreate the sketch. The moving dot is visible in real time, while the camera records the full light path]`
+6. **Win / Lose / End Condition:** `[The round ends when the laser finishes tracing and the captured image is revealed. There’s no win or lose,the outcome is judged by how visually satisfying or interesting the result is.]`
+7. **Reset:** `[The player clears or edits their drawing on the phone and sends a new one, starting the next round immediately]`
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `[Rule 1]`
-- `[Rule 2]`
-- `[Rule 3]`
-- `[Rule 4]`
+- `[N/A (Not Applicable as a traditional game)
+
+This project does not function as a rule-based or competitive game with defined win/lose conditions. Instead, it is an open-ended interactive experience focused on exploration and creativity. The user is free to draw anything, experiment with different patterns, and interpret the results in their own way. There are no strict objectives, constraints, or scoring systems]`
+
 
 ---
 
@@ -183,24 +188,25 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[Condition 1]`
-- [ ] `[Condition 2]`
-- [ ] `[Condition 3]`
-- [ ] `[Condition 4]`
-- [ ] `[Condition 5]`
+- [1] `[The user is able to successfully connect the phone to the system via Bluetooth without repeated failures.]`
+- [2] `[The user can draw an image on the phone and send it to the system, and the data is received correctly by the microcontroller]`
+- [3] `[The system accurately translates the drawing into motion, and the laser traces the image clearly on the wall using the servo mechanism.]`
+- [4] `[he camera setup consistently captures the full light path as a long-exposure image, allowing the final drawing to be visible.]`
+- [5] `[he entire interaction loop  can be completed smoothly and repeated without major technical interruptions]`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
 
 **Response:**  
-`[Write here]`
+`[In the current version the user has the liberty to draw whatever they please.
+The minimum viable version would be where the user is given a predefined list of shapes/drawings that they can select from, to draw on the wall with the help of the laser.]`
 
 ## 5.3 Stretch Features
 What features are nice to have but not essential?
 
-- `[Stretch feature 1]`
-- `[Stretch feature 2]`
-- `[Stretch feature 3]`
+- `[Adding the undo and redo option in the app.]`
+- `[Adding various colour lasers  ]`
+- `[option to adjust stroke thickness]`
 
 ---
 
@@ -209,15 +215,15 @@ What features are nice to have but not essential?
 ## 6.1 Project Type
 Check all that apply.
 
-- [ ] Electronics-based
-- [ ] Mechanical
+- [Yes] Electronics-based
+- [Yes] Mechanical
 - [ ] Sensor-based
-- [ ] App-connected
-- [ ] Motorized
+- [Yes] App-connected
+- [Yes] Motorized
 - [ ] Sound-based
-- [ ] Light-based
-- [ ] Screen/UI-based
-- [ ] Fabricated structure
+- [Yes] Light-based
+- [Yes] Screen/UI-based
+- [Yes] Fabricated structure
 - [ ] Game logic based
 - [ ] Installation / tabletop experience
 - [ ] Other: `[Write here]`
@@ -233,16 +239,26 @@ Include:
 - app interaction if any.
 
 **Response:**  
-`[Write here]`
+`[Input-The user draws a sketch on a mobile app. This drawing is captured as a set of coordinates and sent to the system via Bluetooth.
+
+  Processing-An ESP32 receives this data and processes it by converting the coordinates into movement instructions. It calculates how the two servo motors need to   move in order to recreate the drawing.
+  
+  Output: A laser module, mounted on the servos, traces the drawing on a wall. While only a moving dot is visible in real time, a pre-set camera captures the        motion as a    long-exposure image, revealing the full drawing.
+  
+  Physical Structure:
+  The system consists of a base holding two servo motors arranged to control movement in two axes (X and Y), with a laser attached to the moving mechanism. The      setup is positioned facing a wall, and a camera is fixed in place to capture the output
+  
+  App Interaction:
+  The mobile app acts as the main interface where the user draws and sends the image. It also controls when the system starts tracing, making the interaction        simple and direct.]`
 
 ## 6.3 Input / Output Map
 
 | System Part | Type | What It Does |
 |---|---|---|
-| `[Button / Sensor / Switch / App Input]` | Input | `[Describe]` |
-| `[ESP32 / Controller]` | Processing | `[Describe]` |
-| `[LED / Motor / Servo / Buzzer / Display]` | Output | `[Describe]` |
-| `[Mechanical Assembly]` | Physical Action | `[Describe]` |
+| `[Mobile App (Drawing Interface)]` | Input | `[Allows the user to draw an image and sends the coordinate data to the system via Bluetooth]` |
+| `[ESP32]` | Processing | `[Receives the drawing data, processes it into movement instructions, and controls the servo motors accordingly]` |
+| `[Servo Motors + laser Module]` | Output | `[The servos move in X and Y directions to guide the laser, which traces the drawing on the wall]` |
+| `[Mechanical Assembly(Servo Mount + Laser holder]` | Physical Action | `[Holds and aligns the servos and laser, enabling controlled 2D movement to recreate the drawing accurately]` |
 
 ---
 
@@ -274,10 +290,10 @@ Add a sketch with labels showing:
 
 | Dimension | Value |
 |---|---|
-| Length | `[Write here]` |
-| Width | `[Write here]` |
-| Height | `[Write here]` |
-| Estimated weight | `[Write here]` |
+| Length | `[10cm]` |
+| Width | `[6cm]` |
+| Height | `[12cm]` |
+| Estimated weight | `[30grams]` |
 
 ---
 
@@ -297,13 +313,15 @@ Check all that apply.
 - [ ] Wheels
 - [ ] Sliders
 - [ ] Levers
-- [ ] Not applicable
+- [Yes ] Not applicable
 
 ## 8.2 Mechanical Description
 Describe the mechanism and what it is meant to do.
 
 **Response:**  
-`[Write here]`
+`[The mechanism consists of two servo motors arranged to control movement along two axes (horizontal and vertical), with a laser module attached to the moving part. This setup works like a simple plotter: one servo controls left–right movement, while the other controls up–down movement. Together, they allow the laser to be positioned at different points on a wall.
+
+An ESP32 sends precise angle signals to each servo, guiding the laser step by step along a path. As the servos move, the laser traces the exact coordinates of the drawing provided by the user. The purpose of this mechanism is to convert a digital sketch into a physical motion, enabling the laser to draw the image in real space, which can then be captured as a complete light painting using long-exposure photography.]`
 
 ## 8.3 Motion Planning
 If something moves, explain:
@@ -314,7 +332,16 @@ If something moves, explain:
 - what could go wrong.
 
 **Response:**  
-`[Write here]`
+`[What moves:
+  A laser module mounted on a two axis mechanism(The pan tilt mechanism) moves across the wall. This motion is controlled by two servo motors; one handling horizontal (X-axis) movement     and the other vertical (Y-axis).
+  What causes the movement:
+  An ESP32 sends PWM signals to the servos based on the coordinates received from the mobile app. These signals determine the angle and direction of each servo,     resulting in controlled movement of the laser.
+  How far it moves:
+  The movement range depends on the servo rotation limits (typically around 0° to 180°). This translates to a defined drawing area on the wall, mapped from the      phone screen to the physical space.
+  How fast it moves:
+  The speed is controlled programmatically by adjusting the delay between position updates. It is kept slow and steady so the laser can clearly trace the path and   be captured effectively in a long-exposure image.
+  What could go wrong:
+  The movement may become inaccurate due to servo jitter, poor calibration, or incorrect mapping of coordinates. Power fluctuations can cause unstable motion, and   sudden or fast movements may distort the drawing. Additionally, communication delays or disconnections can interrupt the motion mid way.]`
 
 ## 8.4 Simulation / CAD / Animation Before Making
 If your project includes mechanical motion, document the digital planning before fabrication.
@@ -338,15 +365,20 @@ What changed after the CAD, animation, or simulation stage?
 
 | Component | Quantity | Purpose |
 |---|---:|---|
-| `[ESP32]` | `1` | `[Main controller]` |
-| `[Component]` | `[Qty]` | `[Purpose]` |
-| `[Component]` | `[Qty]` | `[Purpose]` |
+| `[ESP32]` | `1` | `[Main controller that receives data from the app and controls the system]` |
+| `[Servo Motor]` | `[2]` | `[Controls movement along X and Y axes to position the laser]` |
+| `[Laser Module]` | `[1]` | `[Traces the drawing on the wall based on data received from the app]` |
+| `[Power supply]` | `[1]` | `[Provides stable power to the ESP32 and servo motors]` |
+| `[Jumper wires]` | `[Multiple]` | `[Connects all the electrical components together]` |
+
 
 ## 9.2 Wiring Plan
 Describe the main electrical connections.
 
 **Response:**  
-`[Write here]`
+`[The ESP32 is connected to two servo motors, each with three wires: 5V, GND, and signal. The signal wires from both servos are connected to separate PWM-capable GPIO pins on the ESP32, allowing control of movement along the X and Y axes. The servos are powered using an external 5V power supply, and their ground is connected to the ESP32 ground to ensure a common reference.
+
+The laser module is directly connected to the power supply (5V and GND), so it remains continuously ON during operation. It is mounted onto the servo mechanism, and its movement is controlled indirectly through the motion of the servos rather than through any electronic control signal.]`
 
 ## 9.3 Circuit Diagram
 Insert a hand-drawn or software-made circuit diagram.
@@ -358,10 +390,10 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Question | Response |
 |---|---|
-| Power source | `[USB / battery / adapter / other]` |
-| Voltage required | `[Write here]` |
-| Current concerns | `[Write here]` |
-| Safety concerns | `[Write here]` |
+| Power source | `[Adapter (external 5V supply) + USB]` |
+| Voltage required | `[5V for servo motors and laser module; 5V (USB) for the ESP32]` |
+| Current concerns | `[Servo motors can draw high current, causing voltage drops or unstable performance if not powered separately]` |
+| Safety concerns | `[Ensuring common ground, avoid short circuits, preventing overheating(using buck converter), and avoid direct exposure to the laser beam]` |
 
 ---
 
@@ -371,8 +403,9 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Tool / Platform | Purpose |
 |---|---|
-| `[MicroPython / Arduino / MIT App Inventor / CAD tool / other]` | `[Purpose]` |
-| `[Tool]` | `[Purpose]` |
+| `[Micropython]` | `[Programs the ESP32 to process incoming data and control servo movement]` |
+| `[MIT App inventor]` | `[Used to build the mobile app for drawing and sending data via Bluetooth]` |
+| `[nRF Connect]` | `[Used to test and debug BLE communication between the phone and ESP32]` |
 
 ## 10.2 Software Logic
 Describe what the code must do.
@@ -387,7 +420,20 @@ Include:
 - reset behavior.
 
 **Response:**  
-`[Write here]`
+`[Startup behavior:
+When powered on, the ESP32 initializes Bluetooth communication, sets up GPIO pins for the servo motors, and moves the servos to a default  position. It then begins advertising for a connection from the mobile app.
+Input handling:
+The system receives drawing data (a sequence of X–Y coordinates) from the mobile app via Bluetooth. This data is stored temporarily and prepared for execution.
+Sensor reading:
+No sensors are used in this system, so this step is not applicable.
+Decision logic:
+The ESP32 interprets the incoming coordinates and maps them to corresponding servo angles. It determines the sequence of movements required to recreate the drawing smoothly and in order.
+Output behavior:
+The ESP32 sends  signals to the two servo motors, controlling their angles step by step so that the laser traces the drawing on the wall.
+Communication logic:
+Bluetooth Low Energy (BLE) is used to establish a connection with the app. The ESP32 receives data through specific services and characteristics, ensuring reliable transmission of drawing coordinates.
+Reset behavior:
+After completing one drawing, the system either returns the servos to the starting position or waits for new input. The user can send a new drawing to begin the next cycle without restarting the system.]`
 
 ## 10.3 Code Flowchart
 Insert a flowchart showing your code logic.
@@ -416,7 +462,7 @@ Suggested sequence:
 # 11. MIT App Inventor Plan
 
 ## 11.1 Is an app part of this project?
-- [ ] Yes
+- [Yes] Yes
 - [ ] No
 
 If yes, complete this section.
@@ -433,15 +479,25 @@ Examples:
 - displaying data.
 
 **Response:**  
-`[Write here]`
+`[the app turns the system from a mechanism to an interative experience.The app allows the user to draw freely on the screen, which becomes the input for the system. Instead of manually controlling motors or entering coordinates, the user can  sketch shapes, patterns, or symbols. It also enables wireless control via Bluetooth, sending the drawing data directly to the ESP32. This removes the need for physical connections and makes the experience more seamless and engaging.
+Overall, the app adds:
+
+Personalization → every user creates their own unique light painting
+Ease of interaction → no technical knowledge needed
+Control and flexibility → start, stop, reset anytime
+Playfulness → turns a technical setup into a creative tool]'
 
 ## 11.3 App Features
 
 | Feature | Purpose |
 |---|---|
-| `[Bluetooth connect button]` | `[Purpose]` |
-| `[Score display]` | `[Purpose]` |
-| `[Control button / slider / label]` | `[Purpose]` |
+| `[scan]` | `[scans for available devices]` |
+| `[select a device]` | `[Allows the user to browse available Bluetooth devices, select one, and establish a connection]` |
+| `[clear]` | `[Allows the user to clear the drawing they have made]` |
+| `[send]` | `[Sends the completed drawing to the system so the laser can trace it on the wall]` |
+| `[origin]` | `[Sends the laser back to its starting position]` |
+| `[status label]` | `[Displays connection status]` |
+| `[canvas]` | `[Provides the user with a space to freely draw shapes, patterns, or symbols for the laser to trace.]` |
 
 ## 11.4 UI Mockup
 Insert a sketch or screenshot of the app interface.
@@ -451,11 +507,14 @@ Insert a sketch or screenshot of the app interface.
 
 ## 11.5 App Screen Flow
 
-1. `[Step 1]`
-2. `[Step 2]`
-3. `[Step 3]`
-4. `[Step 4]`
-
+1. `[Click on the scan button]`
+2. `[When the label shows "scanning" click on select a device]`
+3. `[Choose ESP32 BLE name form the device list]`
+4. `[when the label reads connected set to origin]`
+5. `[draw on the canvas]`
+6. `[after the drawing is completed click on send.]`
+7. `[The system begins tracing the drawing with the laser on the wall.]`
+8. `[The user can clear the canvas to repeat the process..]`
 ---
 
 # 12. Bill of Materials
@@ -464,9 +523,11 @@ Insert a sketch or screenshot of the app interface.
 
 | Item | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec | Why This Choice? |
 |---|---:|---|---|---:|---|---|
-| `[ESP32]` | `1` | `Yes` | `No` | `0` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
-| `[Item]` | `[Qty]` | `[Yes/No]` | `[Yes/No]` | `[Cost]` | `[Spec]` | `[Reason]` |
+| `[ESP32]` | `1` | `Yes` | `No` | `0` | `[WROOM]` | `[As a microcontroller for the project]` |
+| `[Servo]` | `[2]` | `[Yes]` | `[No]` | `[Cost]` | `[SG90]` | `[For precise movement]` |
+| `[laser]` | `[1]` | `[Yes]` | `[No]` | `[Cost]` | `[Laser module]` | `[Gives a precise point and is small and easy to connect]` |
+| `[power module]` | `[1]` | `[Yes]` | `[No]` | `[Cost]` | `[Spec]` | `[]` |
+| `[wires]` | `[multiple]` | `[yes]` | `[No]` | `[Cost]` | `[Jumper wires as well as normal wires]` | `[Jumper wires are easy to connect to a breadboard and give definite connection]` |
 
 ## 12.2 Material Justification
 Explain why you selected your main materials and components.
@@ -478,31 +539,34 @@ Examples:
 - Why bearing instead of a plain shaft hole?
 
 **Response:**  
-`[Write here]`
+`[We chose to use 3D printed parts for the structure because they allow for precise  iteration. Since the mechanism requires accurate alignment of the servos and the laser, 3D printing makes it possible to design parts that fit perfectly. Compared to materials like cardboard or MDF, it provides better stability and a cleaner, more reliable build.
+
+We used servo motors instead of DC motors because servos allow for precise control over position and angle. This is essential for accurately tracing drawings, as the system needs to move to specific coordinates rather than just rotate continuously. Servos make it much easier to control movement along the X and Y axes.
+
+A laser module was chosen instead of an LED because it produces a focused and sharp beam of light. This is important for creating clear and defined light trails, especially when captured using long-exposure photography. An LED would produce a more diffused light, resulting in less precise drawings.]`
 
 ## 12.3 Items to Purchase Separately
 
 | Item | Why Needed | Purchase Link | Latest Safe Date to Procure | Status |
 |---|---|---|---|---|
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
-| `[Item]` | `[Reason]` | `[Link]` | `[Date]` | `[Pending / Ordered / Received]` |
+| `[N/A]` | `[N/A]` | `[N/A]` | `[N/A]` | `[N/A]` |
 
 ## 12.4 Budget Summary
 
 | Budget Item | Estimated Cost |
 |---|---:|
-| Electronics | `[Cost]` |
-| Mechanical parts | `[Cost]` |
-| Fabrication materials | `[Cost]` |
-| Purchased extras | `[Cost]` |
-| Contingency | `[Cost]` |
-| **Total** | `[Cost]` |
+| Electronics | `[N/A]` |
+| Mechanical parts | `[N/A]` |
+| Fabrication materials | `[N/A]` |
+| Purchased extras | `[N/A]` |
+| Contingency | `[N/A]` |
+| **Total** | `[N/A]` |
 
 ## 12.5 Budget Reflection
 If your cost is too high, what can be simplified, removed, substituted, or shared?
 
 **Response:**  
-`[Write here]`
+`[N/A]`
 
 ---
 
@@ -525,26 +589,26 @@ Include:
 
 | Task ID | Task | Owner | Estimated Hours | Deadline | Dependency | Status |
 |---|---|---|---:|---|---|---|
-| T1 | `[Finalize concept]` | `[Name]` | `2` | `[Date]` | `None` | `To Do` |
-| T2 | `[Complete BOM]` | `[Name]` | `1` | `[Date]` | `T1` | `To Do` |
-| T3 | `[Test electronics]` | `[Name]` | `2` | `[Date]` | `T1` | `To Do` |
-| T4 | `[Build structure]` | `[Name]` | `4` | `[Date]` | `T1` | `To Do` |
-| T5 | `[Write control code]` | `[Name]` | `4` | `[Date]` | `T3` | `To Do` |
-| T6 | `[Integrate system]` | `[Name]` | `4` | `[Date]` | `T4, T5` | `To Do` |
-| T7 | `[Playtest]` | `[Name]` | `2` | `[Date]` | `T6` | `To Do` |
-| T8 | `[Refine and document]` | `[Name]` | `3` | `[Date]` | `T7` | `To Do` |
+| T1 | `[Finalize concept]` | `[Both]` | `2` | `[6.4.26]` | `None` | `Done` |
+| T2 | `[Complete BOM]` | `[Both]` | `1` | `[5.4.26]` | `T1` | `Done` |
+| T3 | `[Test electronics]` | `[Janhavi]` | `2` | `[8.4.26]` | `T1` | `Done` |
+| T4 | `[Build structure]` | `[Janhavi]` | `4` | `[15.4.26]` | `T1` | `Done` |
+| T5 | `[Write control code]` | `[Garima]` | `4` | `[15.4.26]` | `T3` | `Done` |
+| T6 | `[Integrate system]` | `[Janhavi]` | `4` | `[17.4.26]` | `T4, T5` | `Done` |
+| T7 | `[Playtest]` | `[Both]` | `2` | `[Date]` | `19.4.26` | `Done` |
+| T8 | `[Refine and document]` | `[Garima]` | `3` | `[20.4.26]` | `T7` | `Done` |
 
 ## 13.3 Responsibility Split
 
 | Area | Main Owner | Support Owner |
 |---|---|---|
-| Concept and gameplay | `[Name]` | `[Name]` |
-| Electronics | `[Name]` | `[Name]` |
-| Coding | `[Name]` | `[Name]` |
-| App | `[Name]` | `[Name]` |
-| Mechanical build | `[Name]` | `[Name]` |
-| Testing | `[Name]` | `[Name]` |
-| Documentation | `[Name]` | `[Name]` |
+| Concept and gameplay | `[Both]` | `[Both]` |
+| Electronics | `[Garima]` | `[Janhavi]` |
+| Coding | `[Garima]` | `[Janhavi]` |
+| App | `[Janhavi]` | `[Garima]` |
+| Mechanical build | `[Janhavi]` | `[Garima]` |
+| Testing | `[Janhavi]` | `[Garima]` |
+| Documentation | `[Garima]` | `[Janhavi]` |
 
 ---
 
@@ -554,46 +618,46 @@ Include:
 
 ### Week 1 — Plan and De-risk
 Expected outcomes:
-- [ ] Idea finalized
-- [ ] Core interaction decided
-- [ ] Sketches made
-- [ ] BOM completed
-- [ ] Purchase needs identified
-- [ ] Key uncertainty identified
-- [ ] Basic feasibility tested
+- [Yes] Idea finalized
+- [Yes] Core interaction decided
+- [Yes] Sketches made
+- [Yes ] BOM completed
+- [Yes] Purchase needs identified
+- [Yes] Key uncertainty identified
+- [Yes] Basic feasibility tested
 
 ### Week 2 — Build Subsystems
 Expected outcomes:
-- [ ] Electronics tests completed
-- [ ] CAD / structure planning completed
-- [ ] App UI started if needed
-- [ ] Mechanical concept tested
-- [ ] Main subsystems partially working
+- [Yes] Electronics tests completed
+- [No] CAD / structure planning completed
+- [No] App UI started if needed
+- [Yes] Mechanical concept tested
+- [No] Main subsystems partially working
 
 ### Week 3 — Integrate
 Expected outcomes:
-- [ ] Physical body built
-- [ ] Electronics integrated
-- [ ] Code connected to hardware
-- [ ] App connected if required
-- [ ] First playable version exists
+- [Yes] Physical body built
+- [Yes] Electronics integrated
+- [Yes] Code connected to hardware
+- [Yes] App connected if required
+- [Yes] First playable version exists
 
 ### Week 4 — Refine and Finish
 Expected outcomes:
-- [ ] Technical bugs reduced
-- [ ] Playtesting completed
-- [ ] Improvements made
-- [ ] Documentation completed
-- [ ] Final build ready
+- [Yes] Technical bugs reduced
+- [No] Playtesting completed
+- [Yes] Improvements made
+- [No] Documentation completed
+- [Yes] Final build ready
 
 ## 14.2 Weekly Update Log
 
 | Week | Planned Goal | What Actually Happened | What Changed | Next Steps |
 |---|---|---|---|---|
-| Week 1 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 2 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 3 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
-| Week 4 | `[Write here]` | `[Write here]` | `[Write here]` | `[Write here]` |
+| Week 1 | `[Finalize concept, figure out working]` | `[Write here]` | `[Write here]` | `[Write here]` |
+| Week 2 | `[Finalize working, electronic components, mechanical structure, start code]` | `[Write here]` | `[Write here]` | `[Write here]` |
+| Week 3 | `[Complete code, complete app, complete structure, integrate together and test]` | `[Code completed, structure completed, app completed, integration started but not complete, testing remaining]` | `[App completed but not able to test as esp stopped working hence had to buy a new one]` | `[Complete backlog and catchup with goals]` |
+| Week 4 | `[Debugging and final refinement]` | `[Write here]` | `[Write here]` | `[Write here]` |
 
 ---
 
@@ -603,8 +667,8 @@ Expected outcomes:
 
 | Risk | Type | Likelihood | Impact | Mitigation Plan | Owner |
 |---|---|---|---|---|---|
-| `[Example: Bluetooth disconnects]` | `Technical` | `Medium` | `High` | `[Fallback interaction / simplify connection flow]` | `[Name]` |
-| `[Example: Structure breaks during play]` | `Mechanical` | `Medium` | `High` | `[Reinforce joints / change material]` | `[Name]` |
+| `[Bluetooth disconnects]` | `Technical` | `Medium` | `High` | `[Fallback interaction /simplify connection flow]` | `[Janhavi]` |
+| `[Structure breaks during play]` | `Mechanical` | `Medium` | `High` | `[Reinforce joints / change material]` | `[Name]` |
 | `[Risk]` | `[Technical / Material / Time / Gameplay]` | `[Low/Medium/High]` | `[Low/Medium/High]` | `[Plan]` | `[Name]` |
 | `[Risk]` | `[Type]` | `[Low/Medium/High]` | `[Low/Medium/High]` | `[Plan]` | `[Name]` |
 
@@ -622,20 +686,19 @@ What is the single biggest uncertainty in your project at this stage?
 
 | What Needs Testing | How You Will Test It | Success Condition |
 |---|---|---|
-| `[Bluetooth connection]` | `[Method]` | `[What counts as success?]` |
-| `[Mechanism movement]` | `[Method]` | `[What counts as success?]` |
-| `[Sensor behavior]` | `[Method]` | `[What counts as success?]` |
-| `[App communication]` | `[Method]` | `[What counts as success?]` |
+| `[Bluetooth connection]` | `[Attempt to connect the app to the ESP32]` | `[App connects within a few seconds every time and stays connected]` |
+| `[Mechanism movement]` | `[Try to draw simple shapes staring from a line and sqaure, without connecting to app]` | `[Getting clean lines which fairly resemble intended shape without too much distortion]` |
+| `[App communication]` | `[Checking if the app is sending coordinates of drawings to the esp]` | `[App sending proper coordinates]` |
 
 ## 16.2 Playtesting Plan
 
 | Question | How You Will Check |
 |---|---|
-| Do players understand what to do? | `[Method]` |
-| Is the interaction satisfying? | `[Method]` |
-| Do players want another turn? | `[Method]` |
-| Is the challenge balanced? | `[Method]` |
-| Is the response clear and immediate? | `[Method]` |
+| Do players understand what to do? | `[Observe users interacting with the system with minimal instructions and check if they can connect, draw, and send the drawing correctly]` |
+| Is the interaction satisfying? | `[Ask users for feedback and observe their reaction when they see the final light painting]` |
+| Do players want another turn? | `[Check if users voluntarily try again or experiment with new drawings after their first attempt]` |
+| Is the challenge balanced? | `[Observe if users are able to create recognizable shapes without frustration]` |
+| Is the response clear and immediate? | `[Monitor if the laser starts tracing soon after sending the drawing and if the system responds without noticeable delay or confusion]` |
 
 ## 16.3 Testing and Debugging Log
 
@@ -692,9 +755,7 @@ Example:
 
 | Version | Date | What Changed | Why |
 |---|---|---|---|
-| `v1` | `[Date]` | `[Describe]` | `[Reason]` |
-| `v2` | `[Date]` | `[Describe]` | `[Reason]` |
-| `v3` | `[Date]` | `[Describe]` | `[Reason]` |
+| `v1` | `[16.4.26]` | `[Changed material from mdf to 3d printing]` | `[3d printing allows for a better form for the structure with precise slots and indentations for components leading to a better fit.]` |
 
 ---
 
@@ -704,23 +765,24 @@ Example:
 Describe the final version of your project.
 
 **Response:**  
-`[Write here]`
+`[the final version is a laser light painting machine where users draw on a mobile app (built using MIT App Inventor) and send their drawing via Bluetooth to an ESP32. The ESP32 controls two servo motors (along the x and y axes) that move a laser to trace the drawing on a wall .A fixed camera captures the motion as a long-exposure image, revealing the complete light drawing]`
 
 ## 18.2 What Works Well
-- `[Point 1]`
-- `[Point 2]`
-- `[Point 3]`
+- `[Focused beam of the laser gives clear and precise lines]`
+- `[Servo motors provide controlled and accurate movement for tracing shapes]`
+- `[Simple App interaction makes it easy for the user to draw the image]`
 
 ## 18.3 What Still Needs Improvement
-- `[Point 1]`
-- `[Point 2]`
-- `[Point 3]`
+- `[Smoothness in movement of the motors]`
+- `[Speed at which the servos will complete the drawing still a bit unpredictable]`
+- `[Accuracy in copying the image from the user input]`
 
 ## 18.4 What Changed From the Original Plan
 How did the project change from the initial idea?
 
 **Response:**  
-`[Write here]`
+`[
+We initially planned real-time drawing transmission, but switched to sending the full drawing after completion for better stability. We also restricted servo angles to keep the laser on the wall and refined the motion for smoother, more accurate tracing.]`
 
 ---
 
