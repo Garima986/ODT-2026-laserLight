@@ -267,7 +267,8 @@ Include:
 Add an early sketch of the full idea.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[<img width="902" height="1600" alt="image" src="https://github.com/user-attachments/assets/7729b553-84e2-4986-85f6-3b76d864dd1f" />
+]`
 
 Example:
 ```md
