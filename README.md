@@ -58,8 +58,8 @@ By the final review, this README should clearly show:
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `[Garima]` | `[Coding, mechanics]` | `[App building and connection]` | `[Write here]` |
-| `[Janhavi]` | `[App building and connection , mechanics]` | `[Coding]` | `[Write here]` |
+| `[Garima]` | `[Coding, mechanics]` | `[App building and connection]` | `[Mathematical logic,Coding,system integration]` |
+| `[Janhavi]` | `[App building and connection , mechanics]` | `[Coding]` | `[Analytical thinking,mathematical logic, App making,problem solving]` |
 
 ## 1.3 Project Title
 `[Laser light Painting machine.]`
@@ -384,7 +384,8 @@ The laser module is directly connected to the power supply (5V and GND), so it r
 Insert a hand-drawn or software-made circuit diagram.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/f19fa7b5-3765-4bce-bdc7-643ab27e292c" />
+]`
 
 ## 9.4 Power Plan
 
