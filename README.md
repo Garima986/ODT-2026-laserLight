@@ -450,7 +450,13 @@ Suggested sequence:
 - error handling.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[Error Handling 
+Invalid format → ignore
+Out-of-range values → skip
+Connection loss → return to waiting state
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/d19de259-e195-48b8-93bb-118b34c68ef4" />
+ <img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/f3503ab2-6831-4e52-9a16-822734dbeb6a" />
+]`
 
 ## 10.4 Pseudocode
 
@@ -518,7 +524,8 @@ Playfulness → turns a technical setup into a creative tool]'
 Insert a sketch or screenshot of the app interface.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[<img width="452" height="829" alt="image" src="https://github.com/user-attachments/assets/26cd8a17-8a64-4d82-8d93-d1adfc4e0639" />
+]`
 
 ## 11.5 App Screen Flow
 
@@ -598,7 +605,9 @@ Include:
 - how documentation will be maintained.
 
 **Response:**  
-`[Write here]`
+`[Our team divided tasks based on individual strengths. Janhavi focused mainly on app building and physical setup, while Garima handled the coding and core system logic. Documentation was primarily handled by Garima, but both team members contributed whenever needed to keep it updated.
+Decisions were made through quick discussions and mutual agreement. Since the team was small, we were able to test ideas directly and choose what worked best without long delays.Progress was checked informally during working sessions, where we updated each other on completed tasks like electronics testing, structure building, coding, and integration.If a task was delayed, we adjusted by either supporting each other or redistributing smaller parts of the work to stay on track.
+Documentation was maintained alongside the process rather than at the end, with continuous updates based on progress, testing, and changes made during the project.]`
 
 ## 13.2 Task Breakdown
 
