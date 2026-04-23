@@ -455,7 +455,21 @@ Suggested sequence:
 ## 10.4 Pseudocode
 
 ```text
-[Write your pseudocode here]
+[# SERVOS SETUP
+# SETTING ANGLE AND GRID
+# SET HOME POSITION(ORIGIN)
+#Wait 0.5 seconds
+# BLUETOOTH CONNECTION
+# MAIN LOOP
+#Read incoming data
+#Convert data to text
+#If message is HOME Move servos to center
+#Extract x and y(if message contains x and y)
+#check if x and y are within range
+# convert grid → angle
+#define minimum and maximum angle
+#Move servo according to data received
+#wait-small delay]
 ```
 
 ---
