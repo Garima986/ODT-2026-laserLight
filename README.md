@@ -755,7 +755,9 @@ Include:
 - revisions.
 
 **Response:**  
-`[Write here]`
+`[The project began with 3D printing the main components of the pan-tilt mechanism. These parts held the servo motors and the laser securely while allowing smooth movement along both axes. Once printed, the parts were assembled by mounting the servo motors into the structure and attaching the laser module on top. Basic fastening methods like screws  were used to keep the components stable and aligned.
+The next step involved wiring the system. The servos were connected to the ESP32. The laser module was connected directly to the power supply.
+Minor finishing adjustments were made to improve alignment and ensure smooth motion, such as repositioning components and securing loose connections(glue gun used).Throughout the process, multiple revisions were done—adjusting the structure, refining servo angles, and improving stability to achieve better accuracy and overall performance.]`
 
 ## 17.2 Build Photos
 Add photos throughout the project.
