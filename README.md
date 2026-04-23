@@ -856,6 +856,9 @@ What would you improve next?
 `[We would improve the smoothness and accuracy of the laser movement so that drawings look cleaner and more precise
  On the app side (built using MIT App Inventor), we would enhance the interface by adding features like adjustable brush size, undo options.]`
 
+ link to video
+ https://youtube.com/shorts/BioUceGhwU8?si=oHQoo9-qDWPbh1bB
+
 ---
 
 # 20. Final Submission Checklist
