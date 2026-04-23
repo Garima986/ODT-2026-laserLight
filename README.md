@@ -284,7 +284,8 @@ Add a sketch with labels showing:
 - output elements.
 
 **Insert image below:**  
-`[Upload image and link here]`
+`[<img width="821" height="1454" alt="image" src="https://github.com/user-attachments/assets/03291bc2-72dc-4db7-8cc7-1e91b9349a17" />
+]`
 
 ## 7.3 Approximate Dimensions
 
